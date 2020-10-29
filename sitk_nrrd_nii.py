@@ -23,22 +23,6 @@ filename = 'temp'
 
 route = os.path.join(main_route, filename)
 
-train = 'train'
-
-val = 'val'
-
-train_names = []
-
-train_label_names = []
-
-val_names = []
-
-val_label_names = []
-
-data = {}
-
-data['validation'] = []
-
 dir_ = []
 
 path = []
