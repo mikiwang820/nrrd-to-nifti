@@ -13,6 +13,7 @@ import nibabel as nib
 import numpy as np
 import SimpleITK as sitk 
 
+
 #where you want to save ouput files
 save_route = '/Users/wangmeiqi/code_and_data/HCC/ntuh/hcc_ntuh_niigz_1012'
 
@@ -26,7 +27,6 @@ route = os.path.join(main_route, filename)
 dir_ = []
 
 path = []
-
 
 
 for root, dirs, files in os.walk(route):
@@ -46,6 +46,4 @@ for root, dirs, files in os.walk(route):
             sitk.WriteImage(read_img,  output_path)
             
             print("fininshing: " + output_path)
-
-
 
